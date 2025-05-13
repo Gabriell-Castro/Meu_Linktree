@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  min-height: 100vh;
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(
+    180deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 71%,
+    rgba(0, 174, 209, 1) 100%
+  );
+}
+.minhaFoto {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  box-shadow: rgba(29, 240, 255, 0.35) 0px 5px 15px;
+}

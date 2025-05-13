@@ -1,0 +1,81 @@
+.section-list-links {
+  padding: 40px;
+
+  display: flex;
+}
+.list-links {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+}
+.item-link {
+  height: 60px;
+  width: 40%;
+  list-style-type: none;
+  color: rgba(9, 9, 121, 1);
+  box-shadow: rgba(9, 9, 121, 1) 0px 20px 5px;
+  border-radius: 1rem;
+  min-width: 230px;
+}
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  background-color: #ffffffb4;
+  gap: 10px;
+  border-radius: 1rem;
+}
+.item-link:hover {
+  background-color: #b3b3b3b4;
+  height: 50px;
+}
+@keyframes slideInFromLeft {
+  from {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.anima-esquerda {
+  animation: slideInFromLeft 0.8s ease-out forwards;
+}
+@keyframes slideInFromRight {
+  from {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.anima-direita {
+  animation: slideInFromRight 0.8s ease-out forwards;
+}
+
+@keyframes slideInFromImage {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(10px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+.anima-image {
+  animation: slideInFromImage 5.8s infinite forwards;
+}
