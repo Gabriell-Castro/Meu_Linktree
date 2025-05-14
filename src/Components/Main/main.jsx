@@ -40,7 +40,7 @@ export const Main = () => {
             </li>
             <li className="item-link anima-direita">
               <a
-                href="https://wa.me/99991411157"
+                href="https://wa.me/5599991411157?text=Olá+Gabriel,+vi+seu+perfil+no+linktree"
                 className="links"
                 target="_blank"
               >
