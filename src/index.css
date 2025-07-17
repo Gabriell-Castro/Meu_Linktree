@@ -7,15 +7,18 @@
 
 html,
 body {
-  height: 100%;
-  min-height: 100vh;
+  height: auto;
+  min-height: 100%;
   font-family: "Roboto", sans-serif;
+  background: #020024;
   background: linear-gradient(
-    180deg,
+    14deg,
     rgba(2, 0, 36, 1) 0%,
-    rgba(9, 9, 121, 1) 71%,
-    rgba(0, 174, 209, 1) 100%
+    rgba(9, 9, 121, 1) 48%,
+    rgba(0, 212, 255, 1) 100%
   );
+  background-repeat: no-repeat;
+  padding: 30px;
 }
 .minhaFoto {
   width: 96px;

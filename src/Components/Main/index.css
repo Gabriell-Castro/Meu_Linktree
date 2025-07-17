@@ -20,6 +20,10 @@
   border-radius: 1rem;
   min-width: 230px;
 }
+.item-link:hover {
+  transform: scale(1.05);
+  background-color: #b3b3b3b4;
+}
 .links {
   display: flex;
   align-items: center;
@@ -30,10 +34,6 @@
   background-color: #ffffffb4;
   gap: 10px;
   border-radius: 1rem;
-}
-.item-link:hover {
-  background-color: #b3b3b3b4;
-  height: 50px;
 }
 @keyframes slideInFromLeft {
   from {
