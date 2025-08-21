@@ -8,21 +8,13 @@
 html,
 body {
   height: auto;
-  min-height: 100%;
+  max-height: 100%;
   font-family: "Roboto", sans-serif;
-  background: #020024;
-  background: linear-gradient(
-    14deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(9, 9, 121, 1) 48%,
-    rgba(0, 212, 255, 1) 100%
-  );
-  background-repeat: no-repeat;
   padding: 30px;
 }
 .minhaFoto {
   width: 96px;
   height: 96px;
   border-radius: 50%;
-  box-shadow: rgba(29, 240, 255, 0.35) 0px 5px 15px;
+  box-shadow: rgba(255, 255, 255, 0.312) 0px 5px 15px;
 }

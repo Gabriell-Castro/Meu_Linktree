@@ -1,13 +1,13 @@
-import minhaFoto from "../../Imagens/minhaft.jpg";
+import minhaFoto from "../../Imagens/Meu_avatar.png";
 import "./index.css";
 
 const Header = () => {
   return (
     <>
       <header>
-        <img src={minhaFoto} alt="" className="minhaFoto anima-image" />
+        <img src={minhaFoto} alt="" className="minhaFoto" />
         <h1>Gabriel Castro</h1>
-        <p className="anima-image">Em que posso ajudar?</p>
+        <p className="">Em que posso ajudar?</p>
       </header>
     </>
   );
